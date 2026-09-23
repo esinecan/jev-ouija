@@ -4,7 +4,7 @@ Jev is marketed as a model that cannot hallucinate, because it only chooses from
 
 jev-ouija offers Jev the alphabet as options, one request per character. It appends each chosen character to the answer and asks again. The answer grows like a message on an ouija board.
 
-Now Jev too can hallucinate. Or at least, it has the means.
+Now Jev too can hallucinate. Because every AI deserves to dream a little...
 
 ```
             prompt + answer so far + 77 options
