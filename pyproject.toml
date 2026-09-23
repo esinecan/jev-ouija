@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jev-ouija"
+version = "0.1.0"
+description = "Chain Jev choice questions into a character-by-character text generator."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.scripts]
+jev-ouija = "jev_ouija.cli:entry"
+
+[tool.setuptools.packages.find]
+where = ["src"]
